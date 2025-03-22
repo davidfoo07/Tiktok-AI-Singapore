@@ -2,7 +2,7 @@ import os
 import torch
 import yt_dlp
 from datasets import load_dataset
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 
 # Load AISG_Challenge Dataset
 dataset = load_dataset("lmms-lab/AISG_Challenge")
