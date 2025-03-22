@@ -3,6 +3,9 @@ import torch
 import yt_dlp
 from datasets import load_dataset
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+import time
+
+start_time = time.time()
 
 # Load AISG_Challenge Dataset
 dataset = load_dataset("lmms-lab/AISG_Challenge")
@@ -13,9 +16,10 @@ def download_video(youtube_url):
     ydl_opts = {'format': 'best', 'outtmpl': video_path, 'nooverwrites': False}
     
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        ydl.download([youtube_url])
+        info = ydl.extract_info(youtube_url)
+        title = info.get("title", "Unknown Title")
     
-    return video_path
+    return video_path, title
 
 # Load Model and Processor
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -31,13 +35,36 @@ def process_test_case(example):
     question = example["question"]
     question_prompt = example["question_prompt"]
     expected_answer = example["answer"]
-    video_path = download_video(video_url)
+    video_path, title = download_video(video_url)
     
     conversation = [
         {
             "role": "user",
             "content": [
-                    {"type": "text", "text": f"{question} {question_prompt}"},
+                {"type": "text", "text": f"Video title: {title}\nSummarize the video in details."},
+                {"type": "video", "path": video_path},
+            ],
+        },
+    ]
+    
+    inputs = processor.apply_chat_template(
+            conversation,
+            video_fps=1,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt"
+        ).to(model.device)
+    
+    output_ids = model.generate(**inputs, max_new_tokens=128)
+    generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
+    video_summary = processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)[0]
+    
+    conversation = [
+        {
+            "role": "user",
+            "content": [
+                    {"type": "text", "text": f"Video title: {title}\nVideo summary: {video_summary}\nQuestion:\n{question}\n{question_prompt}"},
                     {"type": "video", "path": video_path},
                 ],
         },
@@ -54,14 +81,15 @@ def process_test_case(example):
     
     output_ids = model.generate(**inputs, max_new_tokens=128)
     generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
-    generated_answer = processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    generated_answer = processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)[0]
 
-    print("Test Case Output:")
     print(f"Video URL: {video_url}")
-    print(f"Question: {question}")
-    print(f"Expected Answer: {expected_answer}")
-    print(f"Generated Answer: {generated_answer}")
+    print(f"Question:\n{question}\n{question_prompt}")
+    print(f"Answer: {generated_answer}")
 
 # Run a test case
-sample = dataset['test'].filter(lambda x: x['qid'] == "0372-7")[0]
+sample = dataset['test'].filter(lambda x: x['qid'] == "0008-7")[0]
 process_test_case(sample)
+
+end_time = time.time()
+print(f"Time taken: {end_time - start_time} seconds")
