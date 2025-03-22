@@ -19,13 +19,17 @@ def download_video(youtube_url):
 
 # Load Model and Processor
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = Qwen2_5_VLForConditionalGeneration.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", device_map=device)
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    "Qwen/Qwen2.5-VL-7B-Instruct", 
+    torch_dtype=torch.float16, 
+    device_map="auto")
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
 
 # Process a test case
 def process_test_case(example):
     video_url = example["youtube_url"]
     question = example["question"]
+    question_prompt = example["question_prompt"]
     expected_answer = example["answer"]
     video_path = download_video(video_url)
     
@@ -33,7 +37,7 @@ def process_test_case(example):
         {
             "role": "user",
             "content": [
-                    {"type": "text", "text": question},
+                    {"type": "text", "text": f"{question} {question_prompt}"},
                     {"type": "video", "path": video_path},
                 ],
         },
@@ -59,5 +63,5 @@ def process_test_case(example):
     print(f"Generated Answer: {generated_answer}")
 
 # Run a test case
-sample = dataset["test"][0]
+sample = dataset['test'].filter(lambda x: x['qid'] == "0372-7")[0]
 process_test_case(sample)
