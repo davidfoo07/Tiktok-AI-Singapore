@@ -2,7 +2,7 @@ import os
 import torch
 import yt_dlp
 from datasets import load_dataset
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, AutoTokenizer, PegasusForConditionalGeneration
 import time
 
 start_time = time.time()
@@ -13,13 +13,31 @@ dataset = load_dataset("lmms-lab/AISG_Challenge")
 # Function to download video
 def download_video(youtube_url):
     video_path = "temp.mp4"
-    ydl_opts = {'format': 'best', 'outtmpl': video_path, 'nooverwrites': False}
+    ydl_opts = {
+    'format': 'best', 
+    'outtmpl': video_path, 
+    'nooverwrites': False, 
+    "getcomments": True, 
+    'extractor_args': {
+            'youtube': {
+                'max_comments': ["all","all","all","all"],
+            }
+        }
+    }
     
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(youtube_url)
         title = info.get("title", "Unknown Title")
+        comments = info.get("comments", [])
+        
+    top_comments = sorted(comments, key=lambda x: x.get("like_count", 0), reverse=True)[:20]
+    prompt = " ".join([comment["text"] for comment in top_comments])
     
-    return video_path, title
+    inputs = tokenizer(prompt, return_tensors="pt")
+    summary_ids = pegasus.generate(inputs["input_ids"])
+    comments_summary = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    
+    return video_path, title, comments_summary
 
 # Load Model and Processor
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -28,6 +46,8 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     torch_dtype=torch.float16, 
     device_map="auto")
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
+pegasus = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
+tokenizer = AutoTokenizer.from_pretrained("google/pegasus-xsum")
 
 # Process a test case
 def process_test_case(example):
@@ -35,7 +55,7 @@ def process_test_case(example):
     question = example["question"]
     question_prompt = example["question_prompt"]
     expected_answer = example["answer"]
-    video_path, title = download_video(video_url)
+    video_path, title, comments_summary = download_video(video_url)
     
     conversation = [
         {
@@ -64,7 +84,7 @@ def process_test_case(example):
         {
             "role": "user",
             "content": [
-                    {"type": "text", "text": f"Video title: {title}\nVideo summary: {video_summary}\nQuestion:\n{question}\n{question_prompt}"},
+                    {"type": "text", "text": f"Video title: {title}\nVideo summary: {video_summary}\nComments summary: {comments_summary}\nQuestion:\n{question}\n{question_prompt}"},
                     {"type": "video", "path": video_path},
                 ],
         },
@@ -88,7 +108,7 @@ def process_test_case(example):
     print(f"Answer: {generated_answer}")
 
 # Run a test case
-sample = dataset['test'].filter(lambda x: x['qid'] == "0008-7")[0]
+sample = dataset['test'].filter(lambda x: x['qid'] == "0008-0")[0]
 process_test_case(sample)
 
 end_time = time.time()
