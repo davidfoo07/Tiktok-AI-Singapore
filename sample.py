@@ -2,13 +2,21 @@ import os
 import torch
 import yt_dlp
 from datasets import load_dataset
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, AutoTokenizer, PegasusForConditionalGeneration
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 import time
 
 start_time = time.time()
 
 # Load AISG_Challenge Dataset
 dataset = load_dataset("lmms-lab/AISG_Challenge")
+
+# Load Model and Processor
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    "Qwen/Qwen2.5-VL-7B-Instruct", 
+    torch_dtype=torch.float16,
+    device_map="auto")
+processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
 
 # Function to download video
 def download_video(youtube_url):
@@ -31,23 +39,30 @@ def download_video(youtube_url):
         comments = info.get("comments", [])
         
     top_comments = sorted(comments, key=lambda x: x.get("like_count", 0), reverse=True)[:20]
-    prompt = " ".join([comment["text"] for comment in top_comments])
+    text = "\n".join([comment["text"] for comment in top_comments])
     
-    inputs = tokenizer(prompt, return_tensors="pt")
-    summary_ids = pegasus.generate(inputs["input_ids"])
-    comments_summary = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    conversation = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": f"Summarize these comments in a short paragraph:\n{text}"},
+            ],
+        },
+    ]
+    
+    inputs = processor.apply_chat_template(
+            conversation,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt"
+        ).to(model.device)
+    
+    output_ids = model.generate(**inputs, max_new_tokens=128)
+    generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
+    comments_summary = processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)[0]
     
     return video_path, title, comments_summary
-
-# Load Model and Processor
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen2.5-VL-7B-Instruct", 
-    torch_dtype=torch.float16, 
-    device_map="auto")
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
-pegasus = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
-tokenizer = AutoTokenizer.from_pretrained("google/pegasus-xsum")
 
 # Process a test case
 def process_test_case(example):
@@ -61,7 +76,7 @@ def process_test_case(example):
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": f"Video title: {title}\nSummarize the video in details."},
+                {"type": "text", "text": f"Summarize the video in details."},
                 {"type": "video", "path": video_path},
             ],
         },
@@ -108,7 +123,7 @@ def process_test_case(example):
     print(f"Answer: {generated_answer}")
 
 # Run a test case
-sample = dataset['test'].filter(lambda x: x['qid'] == "0008-0")[0]
+sample = dataset['test'].filter(lambda x: x['qid'] == "0008-7")[0]
 process_test_case(sample)
 
 end_time = time.time()
