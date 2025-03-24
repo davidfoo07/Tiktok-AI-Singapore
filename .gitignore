@@ -1,10 +1,10 @@
 # Ignore virtual environment files
 /Include/
 /Lib/
-/libs/
 /Scripts/
 /share/
 /pyvenv.cfg
 
 # Ignore temporary files
 /temp.mp4
+/videos/
