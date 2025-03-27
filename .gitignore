@@ -6,5 +6,4 @@
 /pyvenv.cfg
 
 # Ignore temporary files
-/temp.mp4
 /videos/
