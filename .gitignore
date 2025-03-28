@@ -4,6 +4,3 @@
 /Scripts/
 /share/
 /pyvenv.cfg
-
-# Ignore temporary files
-/videos/
