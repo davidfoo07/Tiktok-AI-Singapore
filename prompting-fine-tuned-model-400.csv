@@ -1,0 +1,1501 @@
+qid,pred
+0008-0,the last person is cutting the bottle with a knife while the other two are just opening the bottles
+0008-1,he is cutting the bottle
+0008-2,no
+0008-3,yes
+0008-7,C
+0012-0,four
+0012-1,four
+0012-2,yes
+0012-3,no
+0012-7,C
+0016-0,left
+0016-1,right
+0016-2,yes
+0016-3,no
+0016-7,C
+0036-0,the blade is very sharp
+0036-1,the blade is very sharp
+0036-2,yes
+0036-3,yes
+0036-7,A
+0037-0,two
+0037-1,two
+0037-2,yes
+0037-3,yes
+0037-7,D
+0038-0,knife
+0038-1,knife
+0038-2,no
+0038-3,yes
+0038-7,A
+0064-0,no electricity
+0064-1,no light
+0064-2,no
+0064-3,yes
+0064-7,D
+0070-0,two
+0070-1,two
+0070-2,yes
+0070-3,no
+0070-7,D
+0080-0,to make it bigger
+0080-1,to make it pop
+0080-2,yes
+0080-3,yes
+0080-7,A
+0081-0,posing
+0081-1,to hide his face
+0081-2,yes
+0081-3,yes
+0081-7,D
+0083-0,that she is a good daughter
+0083-1,she is trying to convince her mother
+0083-2,Yes
+0083-3,Yes
+0083-7,A
+0099-0,two
+0099-1,three
+0099-2,Yes
+0099-3,No
+0099-7,A
+0101-0,living room
+0101-1,"cabinet, couch, behind cardboard box"
+0101-2,yes
+0101-3,no
+0101-7,B
+0113-0,two
+0113-1,two
+0113-2,yes
+0113-3,No
+0113-7,A
+0117-0,two
+0117-1,two
+0117-2,yes
+0117-3,no
+0117-7,C
+0118-0,push the bottle
+0118-1,jump
+0118-2,yes
+0118-3,no
+0118-7,D
+0127-0,three
+0127-1,three
+0127-2,yes
+0127-3,no
+0127-7,C
+0129-0,two
+0129-1,two
+0129-2,No.
+0129-3,yes
+0129-7,C
+0133-0,people doing gymnastics
+0133-1,two people doing gymnastics
+0133-2,Yes
+0133-3,"No, it is a demonstration of a pendulum."
+0133-7,D
+0142-0,to clean
+0142-1,to clean
+0142-2,to clean
+0142-3,yes
+0142-7,D
+0146-0,three
+0146-1,three
+0146-2,yes
+0146-3,yes
+0146-7,A
+0151-0,red sweater
+0151-1,red sweater
+0151-2,yes
+0151-3,No
+0151-7,B
+0152-0,rubber band
+0152-1,rubber band
+0152-2,yes
+0152-3,Yes
+0152-7,B
+0154-0,left
+0154-1,left
+0154-2,yes
+0154-3,yes
+0154-7,B
+0162-0,three
+0162-1,three
+0162-2,no
+0162-3,no
+0162-7,A
+0167-0,because the pencil is still there
+0167-1,the pencil is not broken
+0167-2,yes
+0167-3,yes
+0167-7,B
+0169-0,three
+0169-1,three
+0169-2,yes
+0169-3,yes
+0169-7,A
+0179-0,two
+0179-1,two
+0179-2,no
+0179-3,no
+0179-7,C
+0198-0,six
+0198-1,six
+0198-2,No
+0198-3,no
+0198-7,B
+0217-0,10 seconds
+0217-1,10 minutes.
+0217-2,"No, it did not."
+0217-3,"No, it did not."
+0217-7,B
+0242-0,cat jump away because of the person's hand.
+0242-1,spoon
+0242-2,yes
+0242-3,yes
+0242-7,D
+0248-0,drawing on face
+0248-1,painting
+0248-2,yes
+0248-3,yes
+0248-7,A
+0251-0,the man moves too fast
+0251-1,the creature moves too fast
+0251-2,no
+0251-3,yes
+0251-7,C
+0256-0,three
+0256-1,5
+0256-2,no
+0256-3,no
+0256-7,A
+0259-0,left
+0259-1,left
+0259-2,no
+0259-3,no
+0259-7,D
+0266-0,left thumb
+0266-1,left thumb
+0266-2,no
+0266-3,no
+0266-7,D
+0267-0,standing on the ground
+0267-1,jumping
+0267-2,yes
+0267-3,jumping
+0267-7,C
+0273-0,blue
+0273-1,white
+0273-2,no
+0273-3,yes
+0273-7,A
+0274-0,six
+0274-1,six
+0274-2,yes
+0274-3,Yes
+0274-7,C
+0276-0,no
+0276-1,perspective
+0276-2,no
+0276-3,yes
+0276-7,A
+0278-0,orange
+0278-1,blue
+0278-2,no
+0278-3,yes
+0278-7,C
+0288-0,chopstick
+0288-1,knife with wooden handle
+0288-2,yes
+0288-3,yes
+0288-7,D
+0291-0,electricity
+0291-1,the person turned on the power button. the person turned off the power button.
+0291-2,no
+0291-3,yes
+0291-7,B
+0292-0,1
+0292-1,1
+0292-2,no
+0292-3,yes
+0292-7,B
+0295-0,two
+0295-1,two
+0295-2,yes
+0295-3,yes
+0295-7,B
+0296-0,too fast
+0296-1,wind吹动裤子
+0296-2,yes
+0296-3,no
+0296-7,D
+0303-0,ride into mat
+0303-1,jump off the bike
+0303-2,no
+0303-3,No.
+0303-7,C
+0304-0,one
+0304-1,one
+0304-2,no
+0304-3,no
+0304-7,D
+0308-0,landing
+0308-1,landing
+0308-2,yes
+0308-3,yes
+0308-7,C
+0313-0,four
+0313-1,four
+0313-2,yes
+0313-3,no
+0313-7,B
+0319-0,on the table
+0319-1,C
+0319-2,yes
+0319-3,no
+0319-7,A
+0320-0,over the man
+0320-1,handstand
+0320-2,no
+0320-3,no
+0320-7,B
+0321-0,rock paper scissors
+0321-1,rock paper scissors
+0321-2,yes
+0321-3,yes
+0321-7,A
+0325-0,four
+0325-1,four
+0325-2,Yes
+0325-3,No.
+0325-7,A
+0334-0,the pencil drawing scene
+0334-1,"the pencil erasing the road, the whisk with birds on it"
+0334-2,yes
+0334-3,yes
+0334-7,D
+0340-0,4
+0340-1,four
+0340-2,Yes
+0340-3,"No, four."
+0340-7,A
+0357-0,surprised.
+0357-1,surprised
+0357-2,no
+0357-3,no
+0357-7,A
+0358-0,she hung onto the bar.
+0358-1,the man in red
+0358-2,yes
+0358-3,yes
+0358-7,A
+0368-0,ten
+0368-1,ten
+0368-2,Yes
+0368-3,Yes
+0368-7,D
+0370-0,four
+0370-1,four
+0370-2,no
+0370-3,no
+0370-7,D
+0372-0,shoots the ball
+0372-1,hang on the ring
+0372-2,yes
+0372-3,yes
+0372-7,D
+0374-0,balloon
+0374-1,the balloon was filled with air and then the man blew into it.
+0374-2,Yes
+0374-3,Removing.
+0374-7,D
+0377-0,man
+0377-1,man
+0377-2,yes
+0377-3,yes
+0377-7,D
+0410-0,the seventh cotton candy is dissolved
+0410-1,the man gets blue hands
+0410-2,no
+0410-3,No.
+0410-7,D
+0416-0,the ball was not there.
+0416-1,the ball is not there
+0416-2,yes
+0416-3,yes
+0416-7,D
+0417-0,funny
+0417-1,funny
+0417-2,no
+0417-3,no
+0417-7,C
+0420-0,no
+0420-1,"no, because it was not paying attention"
+0420-2,no
+0420-3,yes
+0420-7,D
+0427-0,using a knife
+0427-1,he used a fake watermelon
+0427-2,no
+0427-3,yes
+0427-7,B
+0430-0,charging cable
+0430-1,the charger exploded
+0430-2,No.
+0430-3,yes
+0430-7,B
+0432-0,gun
+0432-1,pink
+0432-2,no
+0432-3,yes
+0432-7,B
+0435-0,three
+0435-1,second swing
+0435-2,yes
+0435-3,yes
+0435-7,C
+0439-0,candle
+0439-1,candle
+0439-2,no
+0439-3,yes
+0439-7,B
+0441-0,"left leg forward, right leg behind"
+0441-1,bent
+0441-2,staying in the same spot
+0441-3,no
+0441-7,B
+0452-0,flexible
+0452-1,left leg is of messi and right leg is of ronaldo
+0452-2,no
+0452-3,yes
+0452-7,B
+0456-0,two
+0456-1,four
+0456-2,No.
+0456-3,No
+0456-7,A
+0463-0,third throw
+0463-1,second throw
+0463-2,no
+0463-3,no
+0463-7,D
+0466-0,three
+0466-1,three
+0466-2,no
+0466-3,No
+0466-7,C
+0468-0,person 1
+0468-1,person 1
+0468-2,yes
+0468-3,yes
+0468-7,D
+0494-0,two
+0494-1,two
+0494-2,yes
+0494-3,no
+0494-7,D
+0500-0,two
+0500-1,two
+0500-2,no
+0500-3,no
+0500-7,A
+0501-0,three
+0501-1,three
+0501-2,yes
+0501-3,yes
+0501-7,C
+0512-0,2
+0512-1,two
+0512-2,no
+0512-3,no
+0512-7,C
+0520-0,"A, H, W"
+0520-1,"A, H, W"
+0520-2,no
+0520-3,No
+0520-7,A
+0522-0,two
+0522-1,two
+0522-2,yes
+0522-3,no
+0522-7,D
+0525-0,two
+0525-1,two
+0525-2,no
+0525-3,yes
+0525-7,A
+0526-0,two
+0526-1,two
+0526-2,yes
+0526-3,no
+0526-7,B
+0530-0,soccer
+0530-1,soccer
+0530-2,no
+0530-3,no
+0530-7,C
+0539-0,two
+0539-1,three
+0539-2,No
+0539-3,No
+0539-7,C
+0541-0,eight
+0541-1,16
+0541-2,yes
+0541-3,yes
+0541-7,C
+0542-0,waterfall
+0542-1,The person is seen waiting for the bread to cook.
+0542-2,No
+0542-3,no
+0542-7,D
+0548-0,fork
+0548-1,A bottle of beer.
+0548-2,no
+0548-3,"No, he clips a cucumber."
+0548-7,D
+0551-0,on
+0551-1,vertical
+0551-2,no
+0551-3,no
+0551-7,D
+0552-0,two
+0552-1,three
+0552-2,yes
+0552-3,yes
+0552-7,D
+0561-0,three
+0561-1,always
+0561-2,no
+0561-3,no
+0561-7,B
+0566-0,show that toilet paper can be used to clean up
+0566-1,show the toilet paper can clean up the mess
+0566-2,"Yes, it does."
+0566-3,yes
+0566-7,B
+0567-0,black
+0567-1,black
+0567-2,"No, it is not mentioned."
+0567-3,No
+0567-7,A
+0571-0,finger
+0571-1,middle finger
+0571-2,yes
+0571-3,yes
+0571-7,A
+0575-0,flip flops
+0575-1,flip flops
+0575-2,yes
+0575-3,yes
+0575-7,D
+0576-0,millennial
+0576-1,millennial
+0576-2,yes
+0576-3,yes
+0576-7,C
+0578-0,three
+0578-1,four
+0578-2,No
+0578-3,Yes.
+0578-7,B
+0580-0,three
+0580-1,ten
+0580-2,no
+0580-3,no
+0580-7,A
+0588-0,five
+0588-1,5
+0588-2,yes
+0588-3,yes
+0588-7,B
+0589-0,no
+0589-1,No.
+0589-2,"Yes, it was."
+0589-3,Yes.
+0589-7,C
+0590-0,falling down the stairs
+0590-1,fall down the stairs
+0590-2,yes
+0590-3,no
+0590-7,B
+0595-0,tennis ball
+0595-1,tennis ball and football
+0595-2,yes
+0595-3,yes
+0595-7,D
+0597-0,male
+0597-1,no
+0597-2,Yes
+0597-3,Yes
+0597-7,B
+0600-0,head
+0600-1,head
+0600-2,no
+0600-3,no
+0600-7,C
+0603-0,blue shirt
+0603-1,blue shirt
+0603-2,Yes
+0603-3,Yes
+0603-7,C
+0607-0,standing on ceiling
+0607-1,upside down
+0607-2,yes
+0607-3,yes
+0607-7,A
+0609-0,ball
+0609-1,by the ball
+0609-2,yes
+0609-3,yes
+0609-7,C
+0610-0,send it
+0610-1,send it
+0610-2,yes
+0610-3,yes
+0610-7,A
+0612-0,compare the difference between $0 pencils and $300 pencils
+0612-1,to compare the difference between $0 pencils and $300 pencils
+0612-2,Yes
+0612-3,"No, the reason is to show the difference between using cheap and expensive pencils."
+0612-7,D
+0614-0,shaking hand
+0614-1,shaking
+0614-2,no
+0614-3,excitement
+0614-7,C
+0616-0,blue
+0616-1,blue ball
+0616-2,yes
+0616-3,yes
+0616-7,D
+0620-0,ceiling
+0620-1,upside down
+0620-2,yes
+0620-3,yes
+0620-7,B
+0621-0,left
+0621-1,left
+0621-2,"No, the right foot is the first one to lean against the wall."
+0621-3,"No, the left foot is the first one to lean against the wall."
+0621-7,C
+0625-0,right
+0625-1,down
+0625-2,yes
+0625-3,yes
+0625-7,D
+0627-0,woman
+0627-1,the woman
+0627-2,no
+0627-3,"No, the man moves to change the position of the other person."
+0627-7,A
+0633-0,clockwise
+0633-1,clockwise
+0633-2,yes
+0633-3,yes
+0633-7,D
+0643-0,windy
+0643-1,flag is waving
+0643-2,no
+0643-3,no
+0643-7,D
+0645-0,on her back
+0645-1,on her head
+0645-2,no
+0645-3,no
+0645-7,D
+0652-0,on the road
+0652-1,on the road
+0652-2,yes
+0652-3,no
+0652-7,A
+0655-0,camera
+0655-1,camera
+0655-2,no
+0655-3,no
+0655-7,C
+0658-0,man in white
+0658-1,the one on the left
+0658-2,yes
+0658-3,yes
+0658-7,D
+0664-0,four
+0664-1,four
+0664-2,Yes
+0664-3,no
+0664-7,A
+0667-0,eight
+0667-1,seven
+0667-2,"Yes, there are six people participating in the challenge."
+0667-3,"Yes, there are seven people."
+0667-7,A
+0670-0,three
+0670-1,three
+0670-2,No
+0670-3,"No, three children jumped into the water."
+0670-7,A
+0673-0,two
+0673-1,two
+0673-2,no
+0673-3,no
+0673-7,A
+0675-0,surprised because he didn't know how it was done.
+0675-1,shocked because he did not expect that.
+0675-2,no
+0675-3,yes
+0675-7,A
+0679-0,happy
+0679-1,laughing
+0679-2,yes
+0679-3,no
+0679-7,B
+0689-0,playing
+0689-1,to play a prank
+0689-2,yes
+0689-3,yes
+0689-7,D
+0690-0,playing
+0690-1,playing
+0690-2,no
+0690-3,playing
+0690-7,C
+0695-0,man
+0695-1,man
+0695-2,yes
+0695-3,no
+0695-7,A
+0706-0,to film the man.
+0706-1,take a photo
+0706-2,yes
+0706-3,Yes
+0706-7,B
+0707-0,to film himself
+0707-1,to throw the ball
+0707-2,no
+0707-3,yes
+0707-7,A
+0708-0,it is scared
+0708-1,it is scared
+0708-2,yes
+0708-3,yes
+0708-7,C
+0721-0,airplane
+0721-1,holding an airplane
+0721-2,no
+0721-3,yes
+0721-7,C
+0723-0,it's a cardboard cutout
+0723-1,the woman is moving
+0723-2,yes
+0723-3,yes
+0723-7,D
+0724-0,The banknote is folded in a specific way.
+0724-1,fold the banknote
+0724-2,yes
+0724-3,Correct
+0724-7,C
+0725-0,man poured it into cup
+0725-1,the man drinks the liquid
+0725-2,no
+0725-3,yes
+0725-7,C
+0729-0,red
+0729-1,black
+0729-2,yes
+0729-3,yes
+0729-7,B
+0731-0,a bird
+0731-1,a flower
+0731-2,yes
+0731-3,yes
+0731-7,C
+0735-0,man painted it
+0735-1,camera
+0735-2,yes
+0735-3,No.
+0735-7,D
+0738-0,he filmed it in slow motion
+0738-1,recorded two videos and edited them together
+0738-2,no
+0738-3,no
+0738-7,B
+0740-0,Divide 8 by 2
+0740-1,4 divided by 2
+0740-2,No
+0740-3,No
+0740-7,A
+0742-0,18
+0742-1,x + 2x + 2x = 90
+0742-2,no
+0742-3,no
+0742-7,B
+0743-0,40
+0743-1,30
+0743-2,No
+0743-3,No
+0743-7,C
+0749-0,flour and water
+0749-1,flour
+0749-2,yes
+0749-3,yes
+0749-7,D
+0755-0,foam
+0755-1,foam
+0755-2,yes
+0755-3,yes
+0755-7,B
+0757-0,left
+0757-1,left
+0757-2,no
+0757-3,no
+0757-7,A
+0762-0,couch
+0762-1,couch
+0762-2,no
+0762-3,no
+0762-7,B
+0763-0,the canned coke that was taken away
+0763-1,the one left
+0763-2,no
+0763-3,No.
+0763-7,D
+0766-0,right
+0766-1,right
+0766-2,no
+0766-3,no
+0766-7,D
+0777-0,10
+0777-1,10
+0777-2,No
+0777-3,Yes
+0777-7,C
+0779-0,The illusion of a three-dimensional triangle is achieved by manipulating the pieces to create an impossible shape.
+0779-1,The illusion is created by the shape of the object. The object looks like a triangle but it's actually a cube.
+0779-2,Yes
+0779-3,yes
+0779-7,A
+0790-0,rotate the transparent sheet 45 degrees.
+0790-1,rotate the transparent sheet 45 degrees.
+0790-2,yes
+0790-3,yes
+0790-7,D
+0794-0,cat
+0794-1,cat
+0794-2,yes
+0794-3,no
+0794-7,B
+0803-0,candle
+0803-1,candle
+0803-2,no
+0803-3,Yes
+0803-7,D
+0806-0,three
+0806-1,three
+0806-2,yes
+0806-3,no
+0806-7,C
+0810-0,three
+0810-1,three
+0810-2,no
+0810-3,no
+0810-7,A
+0812-0,two
+0812-1,two
+0812-2,no
+0812-3,no
+0812-7,A
+0816-0,Put straw into bottle
+0816-1,Put straw into bottle.
+0816-2,no
+0816-3,yes
+0816-7,D
+0818-0,toy
+0818-1,toy
+0818-2,yes
+0818-3,yes
+0818-7,D
+0827-0,one
+0827-1,one
+0827-2,yes
+0827-3,no
+0827-7,B
+0833-0,time is running out
+0833-1,a man lying on the sand
+0833-2,yes
+0833-3,no
+0833-7,D
+0835-0,mouth guard
+0835-1,toothbrush
+0835-2,yes
+0835-3,no
+0835-7,D
+0841-0,left eye
+0841-1,left eye
+0841-2,yes
+0841-3,yes
+0841-7,A
+0848-0,the one on the right
+0848-1,left
+0848-2,yes
+0848-3,yes
+0848-7,D
+0854-0,to make them feel more excited.
+0854-1,to make them feel more excited.
+0854-2,yes
+0854-3,no
+0854-7,D
+0857-0,surfing
+0857-1,dancing
+0857-2,no
+0857-3,no
+0857-7,A
+0858-0,left
+0858-1,left
+0858-2,"No, he sat on the left armrest."
+0858-3,"No, he sat on the right armrest."
+0858-7,A
+0865-0,one
+0865-1,one
+0865-2,no
+0865-3,yes
+0865-7,D
+0868-0,red
+0868-1,red
+0868-2,No
+0868-3,yes
+0868-7,B
+0870-0,to help him
+0870-1,to help him
+0870-2,no
+0870-3,yes
+0870-7,D
+0871-0,crosswalk
+0871-1,crosswalk
+0871-2,no
+0871-3,yes
+0871-7,B
+0872-0,left
+0872-1,left
+0872-2,no
+0872-3,yes
+0872-7,C
+0875-0,One.
+0875-1,Two.
+0875-2,Yes
+0875-3,No
+0875-7,D
+0879-0,standing on the same plane
+0879-1,they are upside down
+0879-2,no
+0879-3,no
+0879-7,B
+0880-0,reverse
+0880-1,reverse
+0880-2,no
+0880-3,yes
+0880-7,A
+0886-0,left wrist
+0886-1,left
+0886-2,no
+0886-3,yes
+0886-7,C
+0895-0,a man throws the ball into a hoop on top of a car
+0895-1,basketball hits the hoop
+0895-2,Yes.
+0895-3,Yes.
+0895-7,A
+0898-0,left
+0898-1,throw
+0898-2,no
+0898-3,no
+0898-7,D
+0901-0,one
+0901-1,one
+0901-2,no
+0901-3,no
+0901-7,D
+0905-0,uphill
+0905-1,decline
+0905-2,no
+0905-3,no
+0905-7,B
+0907-0,grass
+0907-1,grass
+0907-2,yes
+0907-3,yes
+0907-7,B
+0910-0,playing
+0910-1,to play
+0910-2,no
+0910-3,yes
+0910-7,B
+0914-0,to clean it
+0914-1,clean the bottle
+0914-2,yes
+0914-3,yes
+0914-7,A
+0918-0,left hand
+0918-1,left hand
+0918-2,no
+0918-3,no
+0918-7,D
+0919-0,paint the tape
+0919-1,he shine light on the tape
+0919-2,Yes
+0919-3,yes
+0919-7,C
+0924-0,cup
+0924-1,camera
+0924-2,yes
+0924-3,yes
+0924-7,C
+0926-0,left hand
+0926-1,left hand
+0926-2,yes
+0926-3,yes
+0926-7,D
+0927-0,left
+0927-1,left
+0927-2,yes
+0927-3,yes
+0927-7,A
+0929-0,both hug people
+0929-1,both touch the statue
+0929-2,yes
+0929-3,yes
+0929-7,A
+0933-0,playing
+0933-1,playing
+0933-2,yes
+0933-3,yes
+0933-7,B
+0939-0,three
+0939-1,four
+0939-2,Yes.
+0939-3,"Yes, because there is a man and three boys."
+0939-7,B
+0942-0,to cook the egg
+0942-1,to make it easier to cook
+0942-2,Yes
+0942-3,no
+0942-7,C
+0946-0,left foot
+0946-1,left foot
+0946-2,yes
+0946-3,yes
+0946-7,C
+0949-0,in the office
+0949-1,Scene 4 and Scene 5
+0949-2,yes
+0949-3,"No, he appears earlier in a white shirt."
+0949-7,D
+0950-0,motion
+0950-1,the ball bounces up and down
+0950-2,no
+0950-3,no
+0950-7,D
+0952-0,blue
+0952-1,black
+0952-2,yes
+0952-3,yes
+0952-7,C
+0956-0,clockwise
+0956-1,clockwise
+0956-2,no
+0956-3,no
+0956-7,A
+0957-0,pulled out
+0957-1,pipette was used to transfer the substance from the beaker to the rod.
+0957-2,Yes.
+0957-3,yes
+0957-7,C
+0973-0,while throwing the dart
+0973-1,while throwing the dart
+0973-2,yes
+0973-3,no
+0973-7,B
+0974-0,before giving it to the man
+0974-1,beginning
+0974-2,yes
+0974-3,yes
+0974-7,C
+0976-0,man
+0976-1,man
+0976-2,Yes
+0976-3,No
+0976-7,D
+0983-0,illusion
+0983-1,security guard
+0983-2,"Yes, he is."
+0983-3,no
+0983-7,B
+0985-0,yes
+0985-1,no
+0985-2,yes
+0985-3,yes
+0985-7,A
+0995-0,long overdue
+0995-1,long overdue
+0995-2,yes
+0995-3,yes
+0995-7,D
+0996-0,pendulum clock
+0996-1,pendulum clock
+0996-2,Yes
+0996-3,No
+0996-7,B
+0999-0,walks on them
+0999-1,falls down
+0999-2,Yes
+0999-3,Yes.
+0999-7,A
+1002-0,catches it with his hand
+1002-1,jump
+1002-2,no
+1002-3,no
+1002-7,A
+1009-0,smile
+1009-1,smile
+1009-2,no
+1009-3,yes
+1009-7,D
+1011-0,clean him
+1011-1,man poured paint on her
+1011-2,no
+1011-3,yes
+1011-7,D
+1018-0,stand still
+1018-1,try to take it back
+1018-2,no
+1018-3,no
+1018-7,A
+1020-0,smile
+1020-1,smile
+1020-2,no
+1020-3,yes
+1020-7,C
+1023-0,laugh
+1023-1,smile
+1023-2,no
+1023-3,yes
+1023-7,C
+1031-0,happy
+1031-1,happy
+1031-2,yes
+1031-3,no
+1031-7,C
+1037-0,show that he is okay
+1037-1,show that he is okay
+1037-2,yes
+1037-3,yes
+1037-7,A
+1044-0,playing
+1044-1,happy
+1044-2,yes
+1044-3,no
+1044-7,B
+1045-0,playing
+1045-1,playing
+1045-2,no
+1045-3,yes
+1045-7,A
+1046-0,playing
+1046-1,to play
+1046-2,no
+1046-3,yes
+1046-7,C
+1049-0,anger
+1049-1,punish the dog
+1049-2,no
+1049-3,frustration
+1049-7,A
+1051-0,pain
+1051-1,mocking
+1051-2,yes
+1051-3,yes
+1051-7,B
+1053-0,greeting
+1053-1,greeting
+1053-2,yes
+1053-3,acknowledge their presence
+1053-7,A
+1055-0,don't drink from a blender
+1055-1,do not put a bottle of soda into a blender
+1055-2,no
+1055-3,Yes
+1055-7,C
+1064-0,the bomb exploded
+1064-1,the bomb explodes
+1064-2,yes
+1064-3,yes
+1064-7,B
+1075-0,show that they are the same person
+1075-1,show that he is a superhero
+1075-2,Yes
+1075-3,no
+1075-7,D
+1080-0,he is surprised that it is so easy to peel
+1080-1,he is surprised that he can peel the carrot
+1080-2,yes
+1080-3,yes
+1080-7,D
+1081-0,toothbrush
+1081-1,toothbrush
+1081-2,yes
+1081-3,yes
+1081-7,B
+1087-0,clockwise
+1087-1,clockwise
+1087-2,yes
+1087-3,yes
+1087-7,C
+1090-0,a bridge
+1090-1,a cliff
+1090-2,yes
+1090-3,yes
+1090-7,D
+1091-0,three
+1091-1,two; a woman reading a book and a man standing behind her
+1091-2,yes
+1091-3,Yes
+1091-7,B
+1095-0,to make it sink
+1095-1,to make it look like a bomb
+1095-2,yes
+1095-3,yes
+1095-7,D
+1101-0,to make it look like idol is floating
+1101-1,to make it look like the idol is floating
+1101-2,yes
+1101-3,yes
+1101-7,A
+1111-0,woman in green and orange sari
+1111-1,woman in green and orange sari
+1111-2,no
+1111-3,"No, it was not the man in the white shirt."
+1111-7,B
+1112-0,man in pink shirt
+1112-1,man in pink shirt
+1112-2,"No, it was the person in the pink shirt."
+1112-3,no
+1112-7,B
+1117-0,man in blue shirt
+1117-1,The man in blue.
+1117-2,Yes
+1117-3,Yes
+1117-7,D
+1119-0,on the floor
+1119-1,on the floor
+1119-2,no
+1119-3,yes
+1119-7,C
+1121-0,lightning bolt
+1121-1,key.
+1121-2,no
+1121-3,yes
+1121-7,D
+1122-0,standing on the pile of newspapers
+1122-1,in the room
+1122-2,yes
+1122-3,no
+1122-7,C
+1124-0,in the bottle
+1124-1,it breaks
+1124-2,no
+1124-3,yes
+1124-7,A
+1127-0,The target basket is in front of the ball shooter.
+1127-1,standing on the ground
+1127-2,Yes
+1127-3,no
+1127-7,D
+1130-0,blue
+1130-1,blue
+1130-2,no
+1130-3,no
+1130-7,B
+1134-0,jump up
+1134-1,straight
+1134-2,no
+1134-3,no
+1134-7,B
+1137-0,down
+1137-1,upwards
+1137-2,no
+1137-3,no
+1137-7,C
+1145-0,10 minutes
+1145-1,10 minutes
+1145-2,yes
+1145-3,yes
+1145-7,B
+1159-0,"Glue, sharpener"
+1159-1,"Glue, eraser"
+1159-2,Yes
+1159-3,no
+1159-7,A
+1160-0,slider
+1160-1,A small metal piece that catches the eye and heavy to satisfy all my cravings.
+1160-2,Yes
+1160-3,Yes
+1160-7,A
+1161-0,"green, blue, orange"
+1161-1,"green, blue, orange"
+1161-2,yes
+1161-3,yes
+1161-7,B
+1162-0,"Calendar, Clock, Notes"
+1162-1,"Calendar, Clock, Notes"
+1162-2,Yes
+1162-3,no
+1162-7,D
+1168-0,he was playing 3d art
+1168-1,he was distracted by the butterfly painting
+1168-2,no
+1168-3,yes
+1168-7,C
+1169-0,he was standing in front of the ball
+1169-1,the ball hit him
+1169-2,no
+1169-3,no
+1169-7,B
+1170-0,crane lifted them up
+1170-1,crane
+1170-2,yes
+1170-3,no
+1170-7,C
+1173-0,throw cups
+1173-1,throwing cups
+1173-2,no
+1173-3,no
+1173-7,D
+1175-0,man moves it
+1175-1,puppetry
+1175-2,yes
+1175-3,yes
+1175-7,B
+1176-0,it was planted in a big pot
+1176-1,camera lens
+1176-2,no
+1176-3,yes
+1176-7,A
+1177-0,jump
+1177-1,jumping
+1177-2,no
+1177-3,yes
+1177-7,D
+1178-0,to show that it is bigger than a tablet
+1178-1,to show the size comparison
+1178-2,no
+1178-3,no
+1178-7,A
+1181-0,man took it away
+1181-1,masking tape
+1181-2,no
+1181-3,no
+1181-7,A
+1182-0,blue
+1182-1,under the clouds
+1182-2,yes
+1182-3,no
+1182-7,C
+1183-0,it was night time
+1183-1,the sun is setting
+1183-2,yes
+1183-3,no
+1183-7,A
+1192-0,to spray water
+1192-1,man throws it
+1192-2,no
+1192-3,yes
+1192-7,C
+1203-0,turn off the tap and take it out
+1203-1,hold the towel with both hands and pull it out.
+1203-2,yes
+1203-3,yes
+1203-7,B
+1206-0,gravity
+1206-1,gravity
+1206-2,yes
+1206-3,yes
+1206-7,A
+1209-0,fast
+1209-1,slow
+1209-2,no
+1209-3,yes
+1209-7,C
+1210-0,from the people to the picture
+1210-1,from the birds to the people
+1210-2,yes
+1210-3,no
+1210-7,C
+1214-0,moving up
+1214-1,follows her movement
+1214-2,yes
+1214-3,no
+1214-7,A
+1223-0,zooms in
+1223-1,camera angle is lower
+1223-2,yes
+1223-3,no
+1223-7,C
+1225-0,man
+1225-1,man
+1225-2,yes
+1225-3,no
+1225-7,C
+1229-0,the object is black and the reflection is white
+1229-1,perspective
+1229-2,yes
+1229-3,no
+1229-7,A
+1231-0,the phone was rotated
+1231-1,the phone was rotated
+1231-2,yes
+1231-3,yes
+1231-7,A
+1233-0,camera effect.
+1233-1,camera reflection
+1233-2,yes
+1233-3,yes
+1233-7,C
+1235-0,59
+1235-1,71
+1235-2,yes
+1235-3,yes
+1235-7,B
+1236-0,yes
+1236-1,yes
+1236-2,yes
+1236-3,no
+1236-7,C
+1237-0,18
+1237-1,18
+1237-2,yes
+1237-3,yes
+1237-7,D
+1239-0,yes
+1239-1,yes
+1239-2,yes
+1239-3,no
+1239-7,B
+1242-0,the ring is on the table
+1242-1,the ring is on the table
+1242-2,yes
+1242-3,yes
+1242-7,C
+1255-0,red
+1255-1,red
+1255-2,yes
+1255-3,yes
+1255-7,D
+1260-0,because the man in black put the sauce on his face
+1260-1,the man in black put a hot dog in his mouth
+1260-2,yes
+1260-3,yes
+1260-7,B
+1261-0,reflection
+1261-1,reflection
+1261-2,yes
+1261-3,yes
+1261-7,D
+1262-0,happy
+1262-1,scared
+1262-2,yes
+1262-3,yes
+1262-7,A
+1275-0,blue shirt
+1275-1,man in blue shirt
+1275-2,yes
+1275-3,yes
+1275-7,D
+1276-0,theme of the video
+1276-1,it represents the theme of the video
+1276-2,no
+1276-3,yes
+1276-7,B
+1278-0,1
+1278-1,1
+1278-2,no
+1278-3,no
+1278-7,A
+1283-0,the one in the middle
+1283-1,girl in red
+1283-2,yes
+1283-3,no
+1283-7,C
+1288-0,happy
+1288-1,happy
+1288-2,yes
+1288-3,yes
+1288-7,A
+1290-0,laugh
+1290-1,laugh
+1290-2,yes
+1290-3,yes
+1290-7,C
+1293-0,man threw it
+1293-1,camera trick
+1293-2,yes
+1293-3,no
+1293-7,A
+1294-0,cooking
+1294-1,cooking
+1294-2,no
+1294-3,yes
+1294-7,A
+1298-0,boy kicked it
+1298-1,boy kicked it
+1298-2,no
+1298-3,no
+1298-7,A
+1299-0,the girl pressed the button
+1299-1,girl's hand
+1299-2,yes
+1299-3,no
+1299-7,B
+1307-0,small
+1307-1,the speed of both tires increases
+1307-2,yes
+1307-3,no
+1307-7,B
+1308-0,speed up
+1308-1,speed up
+1308-2,no
+1308-3,yes
+1308-7,B
+1310-0,Celine
+1310-1,Celine
+1310-2,"No, Celine completed the game faster."
+1310-3,yes
+1310-7,D
+1312-0,yes
+1312-1,yes
+1312-2,yes
+1312-3,yes
+1312-7,C
+1318-0,happy
+1318-1,happy
+1318-2,yes
+1318-3,yes
+1318-7,C
+1321-0,happy
+1321-1,happy
+1321-2,yes
+1321-3,yes
+1321-7,D
+1324-0,happy. they are playing with dog.
+1324-1,happy; they are playing with the dog
+1324-2,no
+1324-3,yes
+1324-7,A
+1329-0,confused.
+1329-1,happy. she is happy because she won the game.
+1329-2,frustration
+1329-3,yes
+1329-7,D
+1344-0,happy
+1344-1,the baby is happy.
+1344-2,yes
+1344-3,yes
+1344-7,C
