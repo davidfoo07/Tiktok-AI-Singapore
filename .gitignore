@@ -1,6 +1,0 @@
-# Ignore virtual environment files
-/Include/
-/Lib/
-/Scripts/
-/share/
-/pyvenv.cfg
